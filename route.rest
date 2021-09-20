@@ -1,0 +1,23 @@
+GET http://localhost:3000/subscribers
+
+###
+
+
+GET http://localhost:3000/subscribers/Luca
+
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Simone",
+    "subscribedToChannel": "android2"
+    }
+
+
+
+
+###
+DELETE  http://localhost:3000/subscribers/6147424b4627d5c24152f4b7
